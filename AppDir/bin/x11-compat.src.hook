@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# TODO find a better way to determine when not in wayland
+case "$XDG_SESSION_TYPE" in
+	wayland|WAYLAND|Wayland)
+		:
+		;;
+	*)
+		export RENDERER=${RENDERER:-egl}
+		12to11 &
+		;;
+esac
