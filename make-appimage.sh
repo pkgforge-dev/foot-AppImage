@@ -11,6 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/scalable/apps/foot.svg
 export DESKTOP=/usr/share/applications/foot.desktop
 export DEPLOY_OPENGL=1
+export URUNTIME_PRELOAD=1
 
 # Deploy dependencies
 quick-sharun \
