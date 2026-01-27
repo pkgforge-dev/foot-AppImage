@@ -17,6 +17,8 @@
 
 </div>
 
+**This AppImage is able to work in x11 by automatically using 12to11** However that will not be the case if you happen to have the proprietary nvidia driver due to a bug in 12to11
+
 ---
 
 AppImage made using [sharun](https://github.com/VHSgunzo/sharun) and its wrapper [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), which makes it extremely easy to turn any binary into a portable package reliably without using containers or similar tricks. 
