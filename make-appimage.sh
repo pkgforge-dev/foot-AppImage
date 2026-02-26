@@ -15,7 +15,7 @@ export URUNTIME_PRELOAD=1
 
 # Deploy dependencies
 quick-sharun \
-	/usr/bin/foot   \
+	/usr/bin/foot*  \
 	/usr/share/foot \
 	/usr/bin/12to11
 
